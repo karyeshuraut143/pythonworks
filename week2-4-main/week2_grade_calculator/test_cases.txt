@@ -1,0 +1,15 @@
+Student Grade Calculator — Test Cases
+
+1. Marks: 95 -> Expected grade A.
+2. Marks: 90 -> Expected grade A (lower boundary).
+3. Marks: 85 -> Expected grade B and message "Very Good".
+4. Marks: 80 -> Expected grade B (lower boundary).
+5. Marks: 75 -> Expected grade C.
+6. Marks: 65 -> Expected grade D.
+7. Marks: 59 -> Expected grade F.
+8. Marks: -1 -> Reject input and ask again.
+9. Marks: 101 -> Reject input and ask again.
+10. Marks: abc -> Show validation message and ask again.
+11. Blank student name -> Ask for the name again.
+12. Marks: 0 -> Expected grade F (valid lower boundary).
+13. Marks: 100 -> Expected grade A (valid upper boundary).
